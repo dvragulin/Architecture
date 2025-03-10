@@ -1,0 +1,7 @@
+digraph pipeline {
+  rankdir=TB;
+  node [shape=box, fontname="Monospace"];
+
+  // start;
+
+}

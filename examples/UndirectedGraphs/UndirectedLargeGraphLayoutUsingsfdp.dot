@@ -1,0 +1,22 @@
+/* this graph is from the graphviz tests/graphs directory. Laid out and rendered as
+  sfdp -Gsize=67! -Goverlap=prism -Tpng root.gv > root.png
+*/
+digraph G_component_0 {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	layout=sfdp
+	graph [ranksep=3, root="189E", overlap=prism];
+	"189E" [label=ca5af2, shape=box, style=filled, color=blue];
+	"790E" [label=b4dfef6, shape=box, style=filled, color=grey];
+	"191E" [label="629e42", shape=box, style=filled, color=grey];
+	1 -> "189E" [label=" ", color=blue, arrowhead=dot];
+	1 -> "790E" [label=" ", color=blue, arrowhead=dot];
+	2 -> "191E" [label=" ", color=blue, arrowhead=dot];
+	27 -> "239E" [label=" ", color=blue, arrowhead=dot];
+	"1E" -> "34E" [color=purple, arrowhead=none];
+	"2E" -> "35E" [color=purple, arrowhead=none];
+	"3E" -> "36E" [color=purple, arrowhead=none];
+	"10E" -> "42E" [color=purple, arrowhead=none];
+	"23E" -> "55E" [color=purple, arrowhead=none];
+}
